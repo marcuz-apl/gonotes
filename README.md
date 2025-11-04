@@ -9,8 +9,8 @@ by Marcus Zou
 - [The Enterprise-Production Edition: mariadb, mysql based](#the-enterprise-production-edition-mariadb-mysql-based)
 - [Running up the docker](#running-up-the-docker)
 - [Trouble-shooting](#trouble-shooting)
-- [Trouble-shooting mysql 8.x](#trouble-shooting-mysql-8-x)
-- [The Lite / Development Edition: sqlite3 based](#the-lite-development-edition-sqlite3-based)
+- [Trouble-shooting mysql 8](#trouble-shooting-mysql-8)
+- [The Lite-Development Edition: sqlite3 based](#the-lite-development-edition-sqlite3-based)
 - [Enjoy the show](#enjoy-the-show)
 - [Pullover the webapp](#pullover-the-webapp)
 - [Outro](#Outro)
@@ -202,7 +202,7 @@ Press "exit" to quit the session.
 
 
 
-## Trouble-shooting mysql 8.x
+## Trouble-shooting mysql 8
 
 While `mariadb` is so great, the `mysql 8.x` could introduces a lot of issues:
 
@@ -435,7 +435,7 @@ While `mariadb` is so great, the `mysql 8.x` could introduces a lot of issues:
 
 
 
-## The Lite / Development Edition: sqlite3 based
+## The Lite-Development Edition: sqlite3 based
 
 #### Features
 
