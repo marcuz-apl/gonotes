@@ -1,0 +1,15 @@
+/.DS_Store
+/.venv/*
+/venv/*
+/temp/*
+/db/*
+!/db-dev/anotes-dev.db
+/content/*
+!/content/dont_delete_me.txt
+/ghost/*
+/backups/*
+/logs/*
+*.log
+*.tmp
+*.bak
+*.swp
