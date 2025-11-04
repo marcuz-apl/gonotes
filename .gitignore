@@ -7,7 +7,6 @@
 /content/*
 !/content/dont_delete_me.txt
 /ghost/*
-/backups/*
 /logs/*
 *.log
 *.tmp
