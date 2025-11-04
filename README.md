@@ -6,13 +6,13 @@ by Marcus Zou
 ## Table of Contents
 
 - [Intro](#intro)
-- [The Enterprise / Production Edition: mysql / mariadb based](#The Enterprise / Production Edition: mysql / mariadb based)
-- [Running up the docker](#Running up the docker)
-- [Trouble-shooting](#Trouble-shooting)
-- [Trouble-shooting mysql 8.x](#Trouble-shooting mysql 8.x)
-- [The Primary Edition: sqlite3-based](#The Primary Edition: sqlite3-based)
-- [Enjoy the show](#Enjoy the show)
-- [Pullover the webapp](#Pullover the webapp)
+- [The Enterprise / Production Edition: mysql / mariadb based](#the-enterprise-production-edition-mysql-mariadb-based)
+- [Running up the docker](#running-up-the-docker)
+- [Trouble-shooting](#trouble-shooting)
+- [Trouble-shooting mysql 8.x](#trouble-shooting-mysql-8-x)
+- [The Lite / Development Edition: sqlite3 based](#the-lite-development-edition-sqlite3-based)
+- [Enjoy the show](#enjoy-the-show)
+- [Pullover the webapp](#pullover-the-webapp)
 - [Outro](#Outro)
 - [License](#License)
 
