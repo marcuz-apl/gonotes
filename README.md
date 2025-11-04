@@ -1,12 +1,12 @@
-# AlfaNotes
-by Marcus Zou
+# Alfazen Notes
+by marcuz-apl
 
 
 
 ## Table of Contents
 
 - [Intro](#intro)
-- [The Enterprise-Production Edition: mariadb, mysql based](#the-enterprise-production-edition-mariadb-mysql-based)
+- [The Enterprise-Production Edition: mariadb-mysql based](#the-enterprise-production-edition-mariadb-mysql-based)
 - [Running up the docker](#running-up-the-docker)
 - [Trouble-shooting](#trouble-shooting)
 - [Trouble-shooting mysql 8](#trouble-shooting-mysql-8)
@@ -37,7 +37,7 @@ mkdir -p assets db content
 
 
 
-## The Enterprise-Production Edition: mariadb, mysql based
+## The Enterprise-Production Edition: mariadb-mysql based
 
 #### Feature
 
