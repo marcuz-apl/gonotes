@@ -6,7 +6,7 @@ by Marcus Zou
 ## Table of Contents
 
 - [Intro](#intro)
-- [The Enterprise -Production Edition: mysql, mariadb based](#the-enterprise-production-edition-mysql-mariadb-based)
+- [The Enterprise-Production Edition: mariadb, mysql based](#the-enterprise-production-edition-mariadb-mysql-based)
 - [Running up the docker](#running-up-the-docker)
 - [Trouble-shooting](#trouble-shooting)
 - [Trouble-shooting mysql 8.x](#trouble-shooting-mysql-8-x)
