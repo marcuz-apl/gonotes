@@ -12,8 +12,8 @@ services:
       # - NODE_ENV=development
     volumes:
       - ./content:/var/lib/ghost/content
-      - ./db-dev:/var/lib/ghost/content/data/
+      - ./db:/var/lib/ghost/content/data/
 
 volumes:
   content:
-  db-dev:
+  db:

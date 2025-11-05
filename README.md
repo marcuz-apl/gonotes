@@ -462,11 +462,11 @@ services:
       # NODE_ENV=development
     volumes:
       - ./content:/var/lib/ghost/content/
-      - ./db-dev:/var/lib/ghost/content/data/
+      - ./db/anotes.db:/var/lib/ghost/content/data/anotes.db
 
 volumes:
   content:
-  db-dev:
+  db:
 ```
 
 #### Running up the docker
@@ -485,7 +485,7 @@ Ghost v6 does NOT support `: ` , but `=` when defining the param/value pairs in 
 >
 > services.ghost.environment.[0]: unexpected type map[string]interface {}
 
-There is no such issue when using MySQL 8 or MariaDB 11/14. Don't ask me why, ask ghost.org.
+There is no such issue when using MySQL 8 or MariaDB 11. Don't ask me why, ask ghost.org.
 
 
 
