@@ -456,10 +456,10 @@ services:
     ports:
       - 2368:2368
     environment:
-      database__client: sqlite3
-      database__connection__filename: /var/lib/ghost/content/data/anotes-dev.db
-      url: http://localhost:2368
-      # NODE_ENV: development
+      database__client=sqlite3
+      database__connection__filename=/var/lib/ghost/content/data/anotes.db
+      url=http://localhost:2368
+      # NODE_ENV=development
     volumes:
       - ./content:/var/lib/ghost/content/
       - ./db-dev:/var/lib/ghost/content/data/
@@ -477,7 +477,15 @@ docker-compose up -d
 ## docker compose -f docker-compose-dev-sqlite3.yaml up -d
 ```
 
+#### Notes
 
+Ghost v6 does NOT support `: ` , but `=` when defining the param/value pairs in `environment` section, engaging sqlite3 database. Otherwise, an error of below will stop your project:
+
+> [!WARNING]
+>
+> services.ghost.environment.[0]: unexpected type map[string]interface {}
+
+There is no such issue when using MySQL 8 or MariaDB 11/14. Don't ask me why, ask ghost.org.
 
 
 

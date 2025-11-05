@@ -6,9 +6,10 @@ services:
     ports:
       - 2368:2368
     environment:
-      - database__client: sqlite3
-      - database__connection__filename: /var/lib/ghost/content/data/anotes-dev.db
-      - url: http://localhost:2368
+      - database__client=sqlite3
+      - database__connection__filename=/var/lib/ghost/content/data/anotes.db
+      - url=http://localhost:2368
+      # - NODE_ENV=development
     volumes:
       - ./content:/var/lib/ghost/content
       - ./db-dev:/var/lib/ghost/content/data/
